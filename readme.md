@@ -31,7 +31,11 @@ docker run --name postgres-container \
  -e POSTGRES_DB=db \
  -p 5432:5432 \
  -d postgres
-
+ remareque (pour ce concet au postgres container ) 
+ 
+ 
+ docker exec -it postgres_container bash
+psql db -U postgres_user -W
 To run python-app container with env variables:
 
 docker run --name python-app-container \
