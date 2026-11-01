@@ -31,7 +31,9 @@ docker run --name postgres-container \
  -e POSTGRES_DB=db \
  -p 5432:5432 \
  -d postgres
- remareque (pour ce concet au postgres container ) 
+ 
+ 
+ => remareque (pour ce concet au postgres container ) 
  
  
  docker exec -it postgres_container bash
